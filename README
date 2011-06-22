@@ -1,0 +1,15 @@
+This is a standalone contact form script. An attempt is made to make it secure. 
+Improvement suggestions are always welcome.
+
+Usage: 
+<?php include_once(dirname(__FILE__) . '/contact_form.php'); ?>
+
+Requires: PHP 5+
+
+Author: Svetoslav Marinov (Slavi)
+Donation Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=78JCF8J6BYMTQ
+Download Link: https://github.com/lordspace/contact-form/zipball/master
+Blog: http://devcha.com
+Main Site: http://WebWeb.ca
+Version: 1.0
+License: LGPL
