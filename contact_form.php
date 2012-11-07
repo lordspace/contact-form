@@ -29,7 +29,7 @@ $contact_msg = '';
 
 if (!empty($_POST)) {
     foreach ($_POST as $key => $value) {
-        if (app_contact_check_inj(app_contact_check_inj($value))) {
+        if (app_contact_check_inj($value)) {
             $errors[] = "Invalid data in: $key";
         }
     }
