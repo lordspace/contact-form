@@ -77,7 +77,7 @@ if (!empty($_POST)) {
  * Gets a variable from the request and prints the value, empty
  */
 function app_contact_get_var($val = '', $default = '') {
-    return empty($_REQUEST[$val]) ? $default : trim($_REQUEST[$val], ' <>');
+    return empty($_REQUEST[$val]) ? $default : trim(strip_tags($_REQUEST[$val]), ' <>');
 }
 
 /**
